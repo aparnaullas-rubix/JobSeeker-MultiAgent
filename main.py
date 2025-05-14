@@ -12,7 +12,7 @@ from resume_match_agent import rate_resume_against_job
 load_dotenv()
 
 # --- 1. Extract Resume Text ---
-resume_path = "/Users/rameshsubramani/Downloads/Ai Agent Tutorial/Aparna Ullas Resume.pdf"  # Update to your actual file path
+resume_path = ""  # Update to your actual file path
 resume_text = extract_text_from_pdf(resume_path)
 
 # --- 2. Job Search ---
